@@ -1,0 +1,28 @@
+{
+  "name": "asyncplify-fork",
+  "version": "0.0.1",
+  "description": "asyncplify operators to fork the process using the node child_process fork module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://danylaporte@github.com/danylaporte/asyncplify-fork.git"
+  },
+  "keywords": [
+    "asyncplify",
+    "fork",
+    "parallel"
+  ],
+  "author": "Dany Laporte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danylaporte/asyncplify-fork/issues"
+  },
+  "homepage": "https://github.com/danylaporte/asyncplify-fork#readme",
+  "dependencies": {
+    "asyncplify": "^0.5.10",
+    "debug": "^2.2.0"
+  }
+}
