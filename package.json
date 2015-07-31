@@ -4,7 +4,7 @@
   "description": "asyncplify operators to fork the process using the node child_process fork module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,9 @@
   "dependencies": {
     "asyncplify": "^0.5.10",
     "debug": "^2.2.0"
+  },
+  "devDependencies": {
+    "asyncplify-tests": "^1.0.1",
+    "mocha": "^2.2.5"
   }
 }
